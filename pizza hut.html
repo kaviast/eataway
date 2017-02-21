@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Menu</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/layout.css" type="text/css" media="screen">
+    <script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
+    <script src="js/cufon-yui.js" type="text/javascript"></script>
+    <script src="js/cufon-replace.js" type="text/javascript"></script>
+    <script src="js/Dynalight_400.font.js" type="text/javascript"></script>
+    <script src="js/FF-cash.js" type="text/javascript"></script>
+    <script src="js/jquery.equalheights.js" type="text/javascript"></script>
+    <script src="js/jquery.bxSlider.js" type="text/javascript"></script>
+	<script type="text/javascript">
+
+	function submitdata() {
+	 var checkboxes = document.getElementsByClassName("bka");
+	 var display="";
+	 for( var i=0; i<checkboxes.length; i++){
+	         if( checkboxes[i].checked ){
+	         	var res = checkboxes[i].value.split("/");
+	            display += "\n" + res[0]+"                    \t  "+res[1];
+	         }
+     }
+	    var r=confirm("Are You Sure You Want To Proceed?\nOrder\n"+display);
+	    if(r==true) {
+	        alert("Record is saved");
+	    } else {
+	        alert("Cancelling Transaction");
+			document.getElementById("for").reset();
+	        returnToPreviousPage();
+	        return false;
+	    }
+
+	}
+
+</script>
+    <script type="text/javascript">
+		$(document).ready(function() {
+			$('#slider').bxSlider({
+				pager: true,
+				controls: false,
+				moveSlideQty: 1,
+				displaySlideQty: 3
+			});
+		});
+	</script>
+	<!--[if lt IE 8]>
+    <div style=' clear: both; text-align:center; position: relative;'>
+        <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+        	<img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+        </a>
+    </div>
+	<![endif]-->
+    <!--[if lt IE 9]>
+   		<script type="text/javascript" src="js/html5.js"></script>
+	<![endif]-->
+</head>
+<body id="page2">
+	<!--==============================header=================================-->
+    <header>
+    	<div class="row-top">
+        	<div class="main">
+            	<div class="wrapper">
+                	<h1><a href="index.html">Eataway<span>.com</span></a></h1>
+                    <nav>
+                        <ul class="menu">
+                            <li><a href="index.html">About</a></li>
+                            <li><a href="catalogue.html">Catalogue </a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="row-bot">
+        	<div class="row-bot-bg">
+            	<div class="main">
+                	<h2>Impressive Selection <span>for any Occasion</span></h2>
+                </div>
+            </div>
+        </div>
+    </header>
+
+	<!--==============================content================================-->
+    <section id="content"><div class="ic"></div>
+        <div class="main">
+            <div class="wrapper">
+            	<article class="col-1">
+                	<div class="indent-left">
+                        <div class="img-indent-bot">
+                            <h3 class="prev-indent-bot">Special Offer</h3>
+                            <div class="wrapper img-indent-bot">
+							<form method="POST" action="catalogue.html">
+                                <figure class="img-indent"><img src="images/Lunch-Ghar-Special-12.jpg" alt=""></figure>
+                                <div class="extra-wrap">
+                                    <h5>Lunch Ghar Special </h5>
+                                    Specially made for the people who wish to enjoy homely lunch at their offices.
+                                </div>
+                            </div>
+                            <input type="submit" value="ORDER NOW!" class="button-2">
+							</form>
+                        </div>
+                       <h3 class="p1">Our Best Menus</h3>
+                            <div id="slider">
+                            <div>
+                                <div class="p2">
+                                	<figure><img src="Bhak/0 (120x80).jpg" alt=""></a></figure>
+                                    <h5>Idli Sambhar</h5>
+                                    (price:Rs 240)
+                                </div>
+                                <div class="p2">
+                                	<figure><img src="Bhak/1 (120x80).jpg" alt=""></a></figure>
+                                    <h5>Dosa</h5>
+                                    (price: Rs 240)
+                                </div>
+                                <figure><img src="Bhak/2 (120x51).jpg" alt=""></a></figure>
+                                <h5>Prawns</h5>
+                                (price: Rs 240)
+                            </div>
+                            <div>
+                                <div class="p2">
+                                	<figure><img src="Bhak/3 (120x80).jpg" alt=""></a></figure>
+                                    <h5>Fried Garlic Prawns</h5>
+                                    (price: Rs 240)
+                                </div>
+                                <div class="p2">
+                                	<figure><img src="Bhak/4 (120x80).jpg" alt=""></a></figure>
+                                    <h5>Rice With Prawns</h5>
+                                    (price: Rs 240)
+                                </div>
+                                <figure><img src="Bhak/5 (120x90).jpg" alt=""></a></figure>
+                                <h5>Roasted Chicken</h5>
+                                (price: Rs 240)
+                            </div>
+							<div>
+                                <div class="p2">
+                                	<figure><img src="Bhak/6 (120x80).jpg" alt=""></a></figure>
+                                    <h5>Stuffed Chicken</h5>
+                                    (price: Rs 240)
+                                </div>
+                                <div class="p2">
+                                	<figure><img src="Bhak/7 (120x60).jpg" alt=""></a></figure>
+                                    <h5>Chicken Drums With Cheese Dip</h5>
+                                    (price: Rs 2400)
+                                </div>
+                                <figure><img src="Bhak/8 (120x67).jpg" alt=""></a></figure>
+                                <h5>Chicken Cury</h5>
+                                (price: Rs 240)
+                            </div>
+							<div>
+                                <div class="p2">
+                                	<figure><img src="Bhak/9 (120x90).jpg" alt=""></a></figure>
+                                    <h5>Butter Paneer</h5>
+                                    (price: Rs 240)
+                                </div>
+                                <div class="p2">
+                                	<figure><img src="Bhak/10 (120x80).jpg" alt=""></a></figure>
+                                    <h5>Paneer Tikka </h5>
+                                    (price: Rs 240)
+									<br>
+                                </div>
+                                <figure><img src="Bhak/11 (120x80).jpg" alt=""></a></figure>
+                                <h5>Chilli Paneer</h5>
+                                (price: Rs 240)
+                            </div>
+							<div>
+                                <div class="p2">
+                                	<figure><img src="Bhak/12 (120x90).jpg" alt=""></a></figure>
+                                    <h5>Vada Pav</h5>
+                                    (price: Rs 240)
+                                </div>
+                                <div class="p2">
+                                	<figure><img src="Bhak/13 (120x101).jpg" alt=""></a></figure>
+                                    <h5>Dal Fry </h5>
+                                    (price: Rs 240)
+									<br>
+                                </div>
+                                <figure><img src="Bhak/14 (120x90).jpg" alt=""></a></figure>
+                                <h5>Chicken Pizza </h5>
+                                (price: Rs 240)
+                            </div>
+							<div>
+                                <div class="p2">
+                                	<figure><img src="Bhak/15 (120x67).jpg" alt=""></a></figure>
+                                    <h5>Pizza Burst</h5>
+                                    (price: Rs 240)
+                                </div>
+                                <div class="p2">
+                                	<figure><img src="Bhak/16 (120x118).jpg" alt=""></a></figure>
+                                    <h5>Vegetable Cheese Pizza </h5>
+                                    (price: Rs 240)
+									<br>
+                                </div>
+                                <figure><img src="Bhak/17 (120x80).jpg" alt=""></a></figure>
+                                <h5>Special Pizza</h5>
+                                (price: Rs 240)
+                            </div>
+							<div>
+                                <div class="p2">
+                                	<figure><img src="Bhak/18 (120x120).jpg" alt=""></a></figure>
+                                    <h5>Modified French Toast</h5>
+                                    (price: Rs 240)
+                                </div>
+                                <div class="p2">
+                                	<figure><img src="Bhak/19 (120x86).jpg" alt=""></a></figure>
+                                    <h5>Chocolate Cake</h5>
+                                    (price: Rs 240)
+									<br>
+                                </div>
+                                <figure><img src="Bhak/20 (120x80).jpg" alt=""></a></figure>
+                                <h5>Strawberry Cake</h5>
+                                (price: Rs 240)
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-2">
+					<form method="POST" action="shipping.php" id="for" onsubmit="return submitdata();">
+					<h2 style="color:blue"> Pizza Hut </h2>
+                    <ul class="price-list p2">
+                   <h3> Veg Pizza</h3>
+                      <li><span>235</span><a href="#"><input type="checkbox" name="abc[]" class="bka" value="Farm Hut/235">Farm Hut</a></li>
+                      <li><span>235</span><a href="#"><input type="checkbox" name="abc[]" class="bka" value="Mexican/235">Mexican</a></li>
+                      <li><span>235</span><a href="#"><input type="checkbox" name="abc[]" class="bka" value="Veg Spicy Treat/235">Veg Spicy Treat</a></li>
+                      <li><span>349</span><a href="#"><input type="checkbox" name="abc[]" class="bka" value="Mushroom & Corn Delight/349">Mushroom & Corn Delight</a></li>
+                      <li><span>459</span><a href="#"><input type="checkbox" name="abc[]" class="bka" value="Italian Treat/459">Italian Treat</a></li>
+                      <h3>Non Veg Pizza</h3>
+                      <li><span>299</span><a href="#"><input type="checkbox" name="abc[]" class="bka" value="Chicken Mexicano/299">Chicken Mexicano</a></li>
+                      <li><span>349</span><a href="#"><input type="checkbox" name="abc[]" class="bka" value="Spicy Chicken Magic/349">Spicy Chicken Magic</a></li>
+                      <li><span>359</span><a href="#"><input type="checkbox" name="abc[]" class="bka" value="Super Chicken Twist/359">Super Chicken Twist</a></li>
+                      <li><span>399</span><a href="#"><input type="checkbox" name="abc[]" class="bka" value="Hot N Spicy Chicken/399">Hot N Spicy Chicken</a></li>
+                      <li><span>459</span><a href="#"><input type="checkbox" name="abc[]" class="bka" value="Double Chicken/459">Double Chicken</a></li>
+                   <h3>The Side Story</h3>
+                      <li><span>149</span><a href="#"><input type="checkbox" name="abc[]" class="bka" value="Garlic Bread/149">Garlic Bread</a></li>
+                      <li><span>190</span><a href="#"><input type="checkbox" name="abc[]" class="bka" value="Garlic Bread Exotica/190">Garlic Bread Exotica</a></li>
+                      <li><span>79</span><a href="#"><input type="checkbox" name="abc[]" class="bka" value="Choco Mousse/79">Choco Mousse</a></li>
+                    </ul>
+                                        <h4>
+					                    <table border="0">
+					                    <tr><td>
+					                    NAME&nbsp;&nbsp;</td><td>
+					                    <input type="text" name="name" maxlen="20" required></td>
+					                    </tr>
+					                    <tr><td>
+					                    EMAIL ADDRESS&nbsp;&nbsp;</td><td>
+					                    <input type="text" name="em" maxlen="40" required></td>
+					                    </tr>
+					                    <tr><td>
+					                    PHONE&nbsp;&nbsp;</td><td>
+					                    <input type="text" name="ph" maxlen="10" required></td>
+					                    </tr>
+					                    <tr><td>
+					                    ADDRESS&nbsp;&nbsp;</td><td>
+					                    <textarea name="add" cols="20" rows="5" required>
+					                    </textarea></td></tr>
+					                    </table></h4>
+
+                    <input class="button-2" type="submit" value="SUBMIT">
+					</form>
+                </article>
+            </div>
+        </div>
+    </section>
+
+	<!--==============================footer=================================-->
+    <footer>
+        <div class="main">
+        	<div class="aligncenter">
+            	<span>Eataway.com &copy; 2015</span>
+
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript"> Cufon.now(); </script>
+</body>
+</html>

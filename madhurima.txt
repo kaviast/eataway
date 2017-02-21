@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Menu</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/layout.css" type="text/css" media="screen">
+    <script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
+    <script src="js/cufon-yui.js" type="text/javascript"></script>
+    <script src="js/cufon-replace.js" type="text/javascript"></script>
+    <script src="js/Dynalight_400.font.js" type="text/javascript"></script>
+    <script src="js/FF-cash.js" type="text/javascript"></script>
+    <script src="js/jquery.equalheights.js" type="text/javascript"></script>
+    <script src="js/jquery.bxSlider.js" type="text/javascript"></script>
+    <script type="text/javascript">
+		$(document).ready(function() {
+			$('#slider').bxSlider({
+				pager: true,
+				controls: false,
+				moveSlideQty: 1,
+				displaySlideQty: 3
+			});
+		});
+	</script>
+	<!--[if lt IE 8]>
+    <div style=' clear: both; text-align:center; position: relative;'>
+        <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+        	<img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+        </a>
+    </div>
+	<![endif]-->
+    <!--[if lt IE 9]>
+   		<script type="text/javascript" src="js/html5.js"></script>
+	<![endif]-->
+</head>
+<body id="page2">
+	<!--==============================header=================================-->
+    <header>
+    	<div class="row-top">
+        	<div class="main">
+            	<div class="wrapper">
+                	<h1><a href="index.html">Catering<span>.com</span></a></h1>
+                    <nav>
+                        <ul class="menu">
+                            <li><a href="index.html">About</a></li>
+                            <li><a class="active" href="menu.html">Menu</a></li>
+                            <li><a href="catalogue.html">Catalogue </a></li>
+                            <li><a href="shipping.html">Shipping</a></li>
+                            <li><a href="faq.html">FAQ </a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="row-bot">
+        	<div class="row-bot-bg">
+            	<div class="main">
+                	<h2>Impressive Selection <span>for any Occasion</span></h2>
+                </div>
+            </div>
+        </div>
+    </header>
+
+	<!--==============================content================================-->
+    <section id="content"><div class="ic"></div>
+        <div class="main">
+            <div class="wrapper">
+            	<article class="col-1">
+                	<div class="indent-left">
+                        <div class="img-indent-bot">
+                            <h3 class="prev-indent-bot">Special Offer</h3>
+                            <div class="wrapper img-indent-bot">
+                                <figure class="img-indent"><img src="images/page2-img1.jpg" alt=""></figure>
+                                <div class="extra-wrap">
+                                    <h5>Nam liber tempor cusoluta </h5>
+                                    Nobis eleifend option congue nihil imperdiet doming quod mazim placerat facer possim orem ipsum dolor sit consectetuer.
+                                </div>
+                            </div>
+                            <a class="button-1" href="#">Read More</a>
+                        </div>
+                        <h3 class="p1">Our Best Menus</h3>
+                            <div id="slider">
+                            <div>
+                                <div class="p2">
+                                	<figure><a href="#"><img src="images/page2-img2.jpg" alt=""></a></figure>
+                                    <h5>Nam liber tempor</h5>
+                                    (price $12.95)
+                                </div>
+                                <div class="p2">
+                                	<figure><a href="#"><img src="images/page2-img5.jpg" alt=""></a></figure>
+                                    <h5>Nam liber tempor</h5>
+                                    (price $12.95)
+                                </div>
+                                <figure><a href="#"><img src="images/page2-img8.jpg" alt=""></a></figure>
+                                <h5>Nam liber tempor</h5>
+                                (price $12.95)
+                            </div>
+                            <div>
+                                <div class="p2">
+                                	<figure><a href="#"><img src="images/page2-img3.jpg" alt=""></a></figure>
+                                    <h5>Nam liber tempor</h5>
+                                    (price $12.95)
+                                </div>
+                                <div class="p2">
+                                	<figure><a href="#"><img src="images/page2-img6.jpg" alt=""></a></figure>
+                                    <h5>Nam liber tempor</h5>
+                                    (price $12.95)
+                                </div>
+                                <figure><a href="#"><img src="images/page2-img9.jpg" alt=""></a></figure>
+                                <h5>Nam liber tempor</h5>
+                                (price $12.95)
+                            </div>
+                            <div>
+                                <div class="p2">
+                                	<figure><a href="#"><img src="images/page2-img4.jpg" alt=""></a></figure>
+                                    <h5>Nam liber tempor</h5>
+                                    (price $12.95)
+                                </div>
+                                <div class="p2">
+                                	<figure><a href="#"><img src="images/page2-img7.jpg" alt=""></a></figure>
+                                    <h5>Nam liber tempor</h5>
+                                    (price $12.95)
+                                </div>
+                                <figure><a href="#"><img src="images/page2-img10.jpg" alt=""></a></figure>
+                                <h5>Nam liber tempor</h5>
+                                (price $12.95)
+                            </div>
+                            <div>
+                                <div class="p2">
+                                	<figure><a href="#"><img src="images/page2-img2.jpg" alt=""></a></figure>
+                                    <h5>Nam liber tempor</h5>
+                                    (price $12.95)
+                                </div>
+                                <div class="p2">
+                                	<figure><a href="#"><img src="images/page2-img5.jpg" alt=""></a></figure>
+                                    <h5>Nam liber tempor</h5>
+                                    (price $12.95)
+                                </div>
+                                <figure><a href="#"><img src="images/page2-img8.jpg" alt=""></a></figure>
+                                <h5>Nam liber tempor</h5>
+                                (price $12.95)
+                            </div>
+                            <div>
+                                <div class="p2">
+                                	<figure><a href="#"><img src="images/page2-img3.jpg" alt=""></a></figure>
+                                    <h5>Nam liber tempor</h5>
+                                    (price $12.95)
+                                </div>
+                                <div class="p2">
+                                	<figure><a href="#"><img src="images/page2-img6.jpg" alt=""></a></figure>
+                                    <h5>Nam liber tempor</h5>
+                                    (price $12.95)
+                                </div>
+                                <figure><a href="#"><img src="images/page2-img9.jpg" alt=""></a></figure>
+                                <h5>Nam liber tempor</h5>
+                                (price $12.95)
+                            </div>
+                            <div>
+                                <div class="p2">
+                                	<figure><a href="#"><img src="images/page2-img4.jpg" alt=""></a></figure>
+                                    <h5>Nam liber tempor</h5>
+                                    (price $12.95)
+                                </div>
+                                <div class="p2">
+                                	<figure><a href="#"><img src="images/page2-img7.jpg" alt=""></a></figure>
+                                    <h5>Nam liber tempor</h5>
+                                    (price $12.95)
+                                </div>
+                                <figure><a href="#"><img src="images/page2-img10.jpg" alt=""></a></figure>
+                                <h5>Nam liber tempor</h5>
+                                (price $12.95)
+                            </div>
+                            <div>
+                                <div class="p2">
+                                	<figure><a href="#"><img src="images/page2-img2.jpg" alt=""></a></figure>
+                                    <h5>Nam liber tempor</h5>
+                                    (price $12.95)
+                                </div>
+                                <div class="p2">
+                                	<figure><a href="#"><img src="images/page2-img5.jpg" alt=""></a></figure>
+                                    <h5>Nam liber tempor</h5>
+                                    (price $12.95)
+                                </div>
+                                <figure><a href="#"><img src="images/page2-img8.jpg" alt=""></a></figure>
+                                <h5>Nam liber tempor</h5>
+                                (price $12.95)
+                            </div>
+                            <div>
+                                <div class="p2">
+                                	<figure><a href="#"><img src="images/page2-img3.jpg" alt=""></a></figure>
+                                    <h5>Nam liber tempor</h5>
+                                    (price $12.95)
+                                </div>
+                                <div class="p2">
+                                	<figure><a href="#"><img src="images/page2-img6.jpg" alt=""></a></figure>
+                                    <h5>Nam liber tempor</h5>
+                                    (price $12.95)
+                                </div>
+                                <figure><a href="#"><img src="images/page2-img9.jpg" alt=""></a></figure>
+                                <h5>Nam liber tempor</h5>
+                                (price $12.95)
+                            </div>
+                            <div>
+                                <div class="p2">
+                                	<figure><a href="#"><img src="images/page2-img4.jpg" alt=""></a></figure>
+                                    <h5>Nam liber tempor</h5>
+                                    (price $12.95)
+                                </div>
+                                <div class="p2">
+                                	<figure><a href="#"><img src="images/page2-img7.jpg" alt=""></a></figure>
+                                    <h5>Nam liber tempor</h5>
+                                    (price $12.95)
+                                </div>
+                                <figure><a href="#"><img src="images/page2-img10.jpg" alt=""></a></figure>
+                                <h5>Nam liber tempor</h5>
+                                (price $12.95)
+                            </div>
+                            <div>
+                                <div class="p2">
+                                	<figure><a href="#"><img src="images/page2-img4.jpg" alt=""></a></figure>
+                                    <h5>Nam liber tempor</h5>
+                                    (price $12.95)
+                                </div>
+                                <div class="p2">
+                                	<figure><a href="#"><img src="images/page2-img7.jpg" alt=""></a></figure>
+                                    <h5>Nam liber tempor</h5>
+                                    (price $12.95)
+                                </div>
+                                <figure><a href="#"><img src="images/page2-img10.jpg" alt=""></a></figure>
+                                <h5>Nam liber tempor</h5>
+                                (price $12.95)
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-2">
+                <h2 style="color:blue">Sagar Ratna</h2>
+                	<h3>Starters</h3>
+                    <ul class="price-list p2">
+                      <li><span>$80</span><a href="#">Rasam+Aplam</a></li>
+                      <li><span>$85</span><a href="#">Rice Idli</a></li>
+                      <li><span>$85</span><a href="#">Upma</a></li>
+             
+                      <li><span>$105</span><a href="#">Rasam Vada</a></li>
+                      <li><span>$115</span><a href="#">Masala/Dal Vada</a></li>
+                   
+                      <h3>Dosa</h3>
+                    <ul class="price-list p2">
+                      <li><span>$100</span><a href="#">Plain Dosa</a></li>
+                      <li><span>$110</span><a href="#">Paper Plain Dosa</a></li>
+                      <li><span>$120</span><a href="#">Masala Dosa</a></li>
+                     
+                      <li><span>$145</span><a href="#">Paneer Masala Dosa</a></li>
+                      <li><span>$145</span><a href="#">Rava Masala Dosa</a></li>
+                      <li><span>$145</span><a href="#">Rava Onion Masala Dosa</a></li>
+           
+                   
+                    <h3>North Indian</h3>
+                    &nbsp&nbsp&nbsp&nbsp<h4>Aap Ki Pasand</h4>
+                    <ul class="price-list p2">
+					  <li><span>$175</span><a href="#">Dal Makhani</a></li>
+				
+					  <li><span>$225</span><a href="#">Kadhai Paneer</a></li>
+					  <li><span>$235</span><a href="#">Paneer Lababdar</a></li>
+					  <li><span>$235</span><a href="#">Paneer Tikka Masala</a></li>
+					  <li><span>$235</span><a href="#">Shahi Paneer</a></li>
+					
+					  </ul>
+		&nbsp&nbsp&nbsp&nbsp<h4>Sangi Saathi</h4>
+                    <ul class="price-list p2">
+					  <li><span>$90</span><a href="#">Green Salad</a></li>
+					  <li><span>$100</span><a href="#">aMixed Raita</a></li>
+					  <li><span>$100</span><a href="#">Boondi Raita</a></li>
+					  <li><span>$105</span><a href="#">Pineapple Raita</a></li></ul>
+					  &nbsp&nbsp&nbsp&nbsp<h4>Tandoor Se</h4>
+                    <ul class="price-list p2">
+					  <li><span>$30</span><a href="#">Roti</a></li>
+					  <li><span>$35</span><a href="#">Butter Roti</a></li>
+					  <li><span>$45</span><a href="#">Plain Naan</a></li>
+					
+				
+					 
+
+                    <a class="button-2" href="#">Read More</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+	<!--==============================footer=================================-->
+    <footer>
+        <div class="main">
+        	<div class="aligncenter">
+            	<span>Catering.com &copy; 2012</span>
+                <a rel="nofollow" class="link" target="_blank" href="http://www.templatemonster.com/">Website Template</a> by TemplateMonster.com<br>Great collection of free templates <a href="http://www.websitetemplatesonline.com" target="_blank">here</a>. | <a href="http://www.getjoomlatemplatesfree.com/" title="Joomla!">www.GetJoomlaTemplatesFree.com</a>. Templates best for Joomla.
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript"> Cufon.now(); </script>
+</body>
+</html>
